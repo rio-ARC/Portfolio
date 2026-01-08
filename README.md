@@ -14,6 +14,7 @@ I'm always open to collaborating on open-source IoT or AI/ML projects with real 
 
 ## 🌐 Live Website
 
-👉 **[View My Portfolio](YOUR_WEBSITE_LINK_HERE)**
+👉 **[View My Portfolio](https://aritra.vercel.app/)**
 
 <!-- Replace YOUR_WEBSITE_LINK_HERE with your actual deployed website URL -->
+
