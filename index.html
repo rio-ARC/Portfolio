@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aritra Roy Choudhury - Personal Portfolio | Developer & Creator">
+    <meta name="keywords" content="Aritra Roy Choudhury, Portfolio, Developer, Software Engineer">
+    <meta name="author" content="Aritra Roy Choudhury">
+
+    <title>Aritra Roy Choudhury | Portfolio</title>
+
+    <!-- Google Fonts - Press Start 2P for pixel art feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Animated Background Elements -->
+    <div class="mario-bg">
+        <div class="clouds">
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+            <div class="cloud cloud-4"></div>
+            <div class="cloud cloud-5"></div>
+        </div>
+        <div class="hills">
+            <div class="hill hill-1"></div>
+            <div class="hill hill-2"></div>
+            <div class="hill hill-3"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="coin-icon">★</span>
+                ARC
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+        <!-- Mario Game Background Elements -->
+        <div class="mario-world">
+            <!-- Clouds -->
+            <div class="game-cloud cloud-1"></div>
+            <div class="game-cloud cloud-2"></div>
+            <div class="game-cloud cloud-3"></div>
+
+            <!-- Green Hills (background) -->
+            <div class="game-hill hill-big"></div>
+            <div class="game-hill hill-small"></div>
+
+            <!-- Bushes -->
+            <div class="game-bush bush-1"></div>
+            <div class="game-bush bush-2"></div>
+            <div class="game-bush bush-3"></div>
+
+            <!-- Pipes -->
+            <div class="game-pipe pipe-1"></div>
+            <div class="game-pipe pipe-2"></div>
+
+            <!-- Floating Brick Platforms with Question Blocks -->
+            <!-- Platform 1 (far left, low) -->
+            <div class="floating-platform platform-1">
+                <div class="platform-brick"></div>
+                <div class="question-block-small">?</div>
+                <div class="platform-brick"></div>
+            </div>
+
+            <!-- Platform 2 (left-center, higher) -->
+            <div class="floating-platform platform-2">
+                <div class="platform-brick"></div>
+                <div class="platform-brick"></div>
+                <div class="question-block-small">?</div>
+                <div class="platform-brick"></div>
+            </div>
+
+            <!-- Platform 3 (center, highest) -->
+            <div class="floating-platform platform-3">
+                <div class="platform-brick"></div>
+                <div class="question-block-small">?</div>
+                <div class="question-block-small">?</div>
+                <div class="platform-brick"></div>
+            </div>
+
+            <!-- Platform 4 (right-center, higher) -->
+            <div class="floating-platform platform-4">
+                <div class="platform-brick"></div>
+                <div class="platform-brick"></div>
+                <div class="question-block-small">?</div>
+                <div class="platform-brick"></div>
+            </div>
+
+            <!-- Platform 5 (far right, low) -->
+            <div class="floating-platform platform-5">
+                <div class="platform-brick"></div>
+                <div class="question-block-small">?</div>
+                <div class="platform-brick"></div>
+            </div>
+
+            <!-- Mario Character (jumping between platforms) -->
+            <div class="mario-character"></div>
+        </div>
+
+        <div class="hero-content">
+            <!-- Profile Picture -->
+            <div class="profile-pic-container">
+                <img src="Projects/pic.jpeg" alt="Aritra Roy Choudhury" class="profile-pic">
+            </div>
+
+            <!-- Tagline Box -->
+            <div class="hero-tagline-box">
+                <h1 class="hero-title">
+                    <span class="title-its">IT'S ME,</span>
+                    <span class="title-name">ARITRA!</span>
+                </h1>
+                <p class="hero-subtitle">Electronics Undergrad | Frontend Developer | AI/ML</p>
+                <div class="hero-cta">
+                    <a href="#skills" class="btn btn-primary">TOOL BOX</a>
+                    <a href="#projects" class="btn btn-secondary">MY WORKS</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Brick Ground -->
+        <div class="brick-ground"></div>
+    </section>
+
+    <!-- About & Education Section -->
+    <section id="about" class="section about-section">
+        <!-- Mario Background Elements -->
+        <div class="mario-bg-elements">
+            <!-- Clouds -->
+            <div class="mario-cloud cloud-1"></div>
+            <div class="mario-cloud cloud-2"></div>
+            <div class="mario-cloud cloud-3"></div>
+
+            <!-- Hills/Bushes -->
+            <div class="mario-hill hill-1"></div>
+            <div class="mario-hill hill-2"></div>
+            <div class="mario-bush bush-1"></div>
+            <div class="mario-bush bush-2"></div>
+            <div class="mario-bush bush-3"></div>
+        </div>
+
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="block-icon">?</span>
+                About Me
+            </h2>
+
+            <div class="about-grid">
+                <div class="brick-card about-card">
+                    <h3>Who Am I?</h3>
+                    <p>
+                        Hi! I'm Aritra, an Electronics & Communication Engineering student who loves building things at
+                        the intersection of hardware and software. I work across web development, embedded systems, and
+                        AI/ML—using whatever tool gets the job done.
+                    </p>
+                    <p>
+                        I code in C, Python, and React.js, and I've built everything from web apps and dashboards to a
+                        Bluetooth RC car and ML-based prediction projects.
+                    </p>
+                    <p>
+                        Currently focused on sharpening my frontend skills while diving deeper into electronics. I'm
+                        actively learning machine learning and data structures, and I care about understanding
+                        <em>why</em> things work, not just making them work.
+                    </p>
+                    <p>
+                        I'm always open to collaborating on open-source IoT or AI/ML projects with real social impact.
+                        If you're into embedded systems, edge ML, or squeezing performance out of limited hardware—we'll
+                        probably get along!
+                    </p>
+                    <p class="fair-warning">
+                        ⚡ Fair warning: when something genuinely interests me, I tend to hyper-focus and go all in.
+                    </p>
+                </div>
+
+                <div class="brick-card education-card">
+                    <h3>
+                        <span class="mushroom-icon">🎓</span>
+                        Education
+                    </h3>
+                    <div class="education-timeline">
+                        <div class="timeline-item">
+                            <div class="pipe-connector"></div>
+                            <div class="timeline-content">
+                                <h4>B.Tech in Electronics & Communication Engineering</h4>
+                                <p class="institution">Kalyani Government Engineering College</p>
+                                <p class="year">2024 - 2028</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="pipe-connector"></div>
+                            <div class="timeline-content">
+                                <h4>Higher Secondary Education</h4>
+                                <p class="institution">M. C. Kejriwal Vidyapeeth</p>
+                                <p class="board">Council for Indian School Certificate Examination</p>
+                                <div class="scores">
+                                    <span class="score-badge">ICSE 2021: <strong>99%</strong></span>
+                                    <span class="score-badge">ISC 2023: <strong>94.25%</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ground"></div>
+    </section>
+
+    <!-- Skills & Tools Section -->
+    <section id="skills" class="section skills-section">
+        <div class="skills-container">
+            <h2 class="skills-title">
+                <span class="title-power">POWER-UPS</span>
+                <span class="title-ampersand">&</span>
+                <span class="title-tools">TOOLS</span>
+            </h2>
+            <div class="title-underline"></div>
+
+            <!-- Row 1: Languages & Platforms (Right to Left) -->
+            <div class="skills-row-wrapper">
+                <button class="scroll-arrow arrow-left" data-row="1" aria-label="Scroll left">
+                    <span>◀</span>
+                </button>
+                <div class="skills-row" id="skills-row-1" data-direction="left">
+                    <div class="skills-track">
+                        <!-- Original set -->
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"
+                                class="skill-icon-img">
+                            <span class="skill-label">C</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                                alt="C++" class="skill-icon-img">
+                            <span class="skill-label">C++</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python" class="skill-icon-img">
+                            <span class="skill-label">Python</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML" class="skill-icon-img">
+                            <span class="skill-label">HTML5</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS" class="skill-icon-img">
+                            <span class="skill-label">CSS3</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JavaScript" class="skill-icon-img">
+                            <span class="skill-label">JS (ES6+)</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                alt="TypeScript" class="skill-icon-img">
+                            <span class="skill-label">TypeScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg"
+                                alt="PowerShell" class="skill-icon-img">
+                            <span class="skill-label">PowerShell</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
+                                alt="Arduino" class="skill-icon-img">
+                            <span class="skill-label">Arduino</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg"
+                                alt="Vercel" class="skill-icon-img skill-icon-invert">
+                            <span class="skill-label">Vercel</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg"
+                                alt="Netlify" class="skill-icon-img">
+                            <span class="skill-label">Netlify</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                                alt="SQL" class="skill-icon-img">
+                            <span class="skill-label">SQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+                                alt="Scikit-learn" class="skill-icon-img">
+                            <span class="skill-label">Scikit-learn</span>
+                        </div>
+                        <!-- Duplicate set for seamless loop -->
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"
+                                class="skill-icon-img">
+                            <span class="skill-label">C</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                                alt="C++" class="skill-icon-img">
+                            <span class="skill-label">C++</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python" class="skill-icon-img">
+                            <span class="skill-label">Python</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML" class="skill-icon-img">
+                            <span class="skill-label">HTML5</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS" class="skill-icon-img">
+                            <span class="skill-label">CSS3</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JavaScript" class="skill-icon-img">
+                            <span class="skill-label">JS (ES6+)</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                alt="TypeScript" class="skill-icon-img">
+                            <span class="skill-label">TypeScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg"
+                                alt="PowerShell" class="skill-icon-img">
+                            <span class="skill-label">PowerShell</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
+                                alt="Arduino" class="skill-icon-img">
+                            <span class="skill-label">Arduino</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg"
+                                alt="Vercel" class="skill-icon-img skill-icon-invert">
+                            <span class="skill-label">Vercel</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg"
+                                alt="Netlify" class="skill-icon-img">
+                            <span class="skill-label">Netlify</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                                alt="SQL" class="skill-icon-img">
+                            <span class="skill-label">SQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+                                alt="Scikit-learn" class="skill-icon-img">
+                            <span class="skill-label">Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="scroll-arrow arrow-right" data-row="1" aria-label="Scroll right">
+                    <span>▶</span>
+                </button>
+            </div>
+
+            <!-- Row 2: Frameworks & Tools (Left to Right) -->
+            <div class="skills-row-wrapper">
+                <button class="scroll-arrow arrow-left" data-row="2" aria-label="Scroll left">
+                    <span>◀</span>
+                </button>
+                <div class="skills-row" id="skills-row-2" data-direction="right">
+                    <div class="skills-track track-reverse">
+                        <!-- Original set -->
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt="React" class="skill-icon-img">
+                            <span class="skill-label">React</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                alt="Node.js" class="skill-icon-img">
+                            <span class="skill-label">Node.js</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                alt="NumPy" class="skill-icon-img">
+                            <span class="skill-label">NumPy</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                                alt="Pandas" class="skill-icon-img">
+                            <span class="skill-label">Pandas</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                                alt="Tailwind" class="skill-icon-img">
+                            <span class="skill-label">Tailwind</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"
+                                class="skill-icon-img">
+                            <span class="skill-label">Git</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub" class="skill-icon-img skill-icon-invert">
+                            <span class="skill-label">GitHub</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                                alt="Firebase" class="skill-icon-img">
+                            <span class="skill-label">Firebase</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon-text">R</div>
+                            <span class="skill-label">Render</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                                alt="MongoDB" class="skill-icon-img">
+                            <span class="skill-label">MongoDB</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+                                alt="Matplotlib" class="skill-icon-img">
+                            <span class="skill-label">Matplotlib</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+                                alt="FastAPI" class="skill-icon-img">
+                            <span class="skill-label">FastAPI</span>
+                        </div>
+                        <!-- Duplicate set for seamless loop -->
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt="React" class="skill-icon-img">
+                            <span class="skill-label">React</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                alt="Node.js" class="skill-icon-img">
+                            <span class="skill-label">Node.js</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                alt="NumPy" class="skill-icon-img">
+                            <span class="skill-label">NumPy</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                                alt="Pandas" class="skill-icon-img">
+                            <span class="skill-label">Pandas</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                                alt="Tailwind" class="skill-icon-img">
+                            <span class="skill-label">Tailwind</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"
+                                class="skill-icon-img">
+                            <span class="skill-label">Git</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub" class="skill-icon-img skill-icon-invert">
+                            <span class="skill-label">GitHub</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                                alt="Firebase" class="skill-icon-img">
+                            <span class="skill-label">Firebase</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon-text">R</div>
+                            <span class="skill-label">Render</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                                alt="MongoDB" class="skill-icon-img">
+                            <span class="skill-label">MongoDB</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+                                alt="Matplotlib" class="skill-icon-img">
+                            <span class="skill-label">Matplotlib</span>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+                                alt="FastAPI" class="skill-icon-img">
+                            <span class="skill-label">FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="scroll-arrow arrow-right" data-row="2" aria-label="Scroll right">
+                    <span>▶</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="projects-container">
+            <!-- Level Selection Banner -->
+            <div class="level-banner">
+                <h2 class="level-title">LEVEL SELECTION</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="level-card">
+                    <div class="level-preview preview-image">
+                        <img src="Projects/Krishi.png" alt="KrishiSahayi Dashboard" class="project-image">
+                    </div>
+                    <div class="level-content">
+                        <h3 class="level-name">KrishiSahayi Admin Dashboard</h3>
+                        <p class="level-description">
+                            A centralized platform for Government Agricultural Officers to monitor and resolve farmers'
+                            challenges in real-time.
+                        </p>
+                        <div class="level-tech">
+                            <span class="tech-pill">TypeScript</span>
+                            <span class="tech-pill">JWT</span>
+                        </div>
+                        <div class="level-buttons">
+                            <a href="https://krishi-sahayi-t5o3.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="level-btn btn-demo">LIVE DEMO</a>
+                            <a href="https://github.com/rio-ARC/KrishiSahayi-Admin-Dashboard" target="_blank"
+                                rel="noopener noreferrer" class="level-btn btn-github">GITHUB</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="level-card">
+                    <div class="level-preview preview-image">
+                        <img src="Projects/Disease.png" alt="Disease Prediction Model" class="project-image">
+                    </div>
+                    <div class="level-content">
+                        <h3 class="level-name">Disease Prediction Model</h3>
+                        <p class="level-description">
+                            A web app that predicts diseases based on user-reported symptoms using ML.
+                        </p>
+                        <div class="level-tech">
+                            <span class="tech-pill">Flask</span>
+                            <span class="tech-pill">MLP Classifier</span>
+                        </div>
+                        <div class="level-buttons">
+                            <a href="https://diseasepredictionapp-2-miua.onrender.com/" target="_blank"
+                                rel="noopener noreferrer" class="level-btn btn-demo">LIVE DEMO</a>
+                            <a href="https://github.com/rio-ARC/Disease-Prediction-Model" target="_blank"
+                                rel="noopener noreferrer" class="level-btn btn-github">GITHUB</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="level-card">
+                    <div class="level-preview preview-image">
+                        <img src="Projects/Signspeak.png" alt="SignSpeak Tutor" class="project-image">
+                    </div>
+                    <div class="level-content">
+                        <h3 class="level-name">SignSpeak Tutor</h3>
+                        <p class="level-description">
+                            AI-powered sign language learning platform with ASL visualizations and interactive quizzes.
+                        </p>
+                        <div class="level-tech">
+                            <span class="tech-pill">JavaScript</span>
+                            <span class="tech-pill">Node.js</span>
+                        </div>
+                        <div class="level-buttons">
+                            <a href="https://sign-speak-tutor.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="level-btn btn-demo">LIVE DEMO</a>
+                            <a href="https://github.com/rio-ARC/SignSpeak-Tutor" target="_blank"
+                                rel="noopener noreferrer" class="level-btn btn-github">GITHUB</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="level-card">
+                    <div class="level-preview preview-image">
+                        <img src="Projects/veriwork.png" alt="VeriWork" class="project-image">
+                    </div>
+                    <div class="level-content">
+                        <h3 class="level-name">VeriWork</h3>
+                        <p class="level-description">
+                            Evidence-Backed Contribution Verification for Group Projects.
+                        </p>
+                        <div class="level-tech">
+                            <span class="tech-pill">FastAPI</span>
+                            <span class="tech-pill">JS</span>
+                            <span class="tech-pill">CSS</span>
+                        </div>
+                        <div class="level-buttons">
+                            <a href="https://veriwork-gjt9.onrender.com" target="_blank" rel="noopener noreferrer"
+                                class="level-btn btn-demo">LIVE DEMO</a>
+                            <a href="https://github.com/rio-ARC/VeriWork" target="_blank" rel="noopener noreferrer"
+                                class="level-btn btn-github">GITHUB</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="level-card">
+                    <div class="level-preview preview-image">
+                        <img src="Projects/movie.png" alt="Movie Recommendation API" class="project-image">
+                    </div>
+                    <div class="level-content">
+                        <h3 class="level-name">Movie Recommendation API</h3>
+                        <p class="level-description">
+                            FastAPI movie recommender using TF-IDF and cosine similarity for content-based filtering.
+                        </p>
+                        <div class="level-tech">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">FastAPI</span>
+                        </div>
+                        <div class="level-buttons">
+                            <a href="https://movie-recommendation-7vtq.onrender.com/docs" target="_blank"
+                                rel="noopener noreferrer" class="level-btn btn-demo">LIVE DEMO</a>
+                            <a href="https://github.com/rio-ARC/Movie_Recommendation" target="_blank"
+                                rel="noopener noreferrer" class="level-btn btn-github">GITHUB</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="level-card">
+                    <div class="level-preview preview-image">
+                        <img src="Projects/Credit.png" alt="Credit Scoring Model" class="project-image">
+                    </div>
+                    <div class="level-content">
+                        <h3 class="level-name">Credit Scoring Model</h3>
+                        <p class="level-description">
+                            ML-powered credit score predictor using Logistic Regression with high-risk customer
+                            identification.
+                        </p>
+                        <div class="level-tech">
+                            <span class="tech-pill">Pandas</span>
+                            <span class="tech-pill">NumPy</span>
+                            <span class="tech-pill">Scikit-learn</span>
+                        </div>
+                        <div class="level-buttons">
+                            <a href="https://creditscorechecking-11.onrender.com/" target="_blank"
+                                rel="noopener noreferrer" class="level-btn btn-demo">LIVE DEMO</a>
+                            <a href="https://github.com/rio-ARC/Credit-Scoring-Model" target="_blank"
+                                rel="noopener noreferrer" class="level-btn btn-github">GITHUB</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Decorative Pipes -->
+        <div class="pipe-decoration pipe-left"></div>
+        <div class="pipe-decoration pipe-right"></div>
+        <div class="ground"></div>
+    </section>
+
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements-section">
+        <div class="achievements-container">
+            <h2 class="highscore-title">HIGH SCORES</h2>
+
+            <div class="highscore-table">
+                <div class="highscore-header">
+                    <span class="col-rank">RANK</span>
+                    <span class="col-achievement">ACHIEVEMENT</span>
+                    <span class="col-score">SCORE</span>
+                </div>
+                <div class="highscore-divider"></div>
+
+                <div class="highscore-row">
+                    <span class="col-rank rank-1st">1ST</span>
+                    <span class="col-achievement">Waitlist for Finals of SIH 2025 (PS25236)</span>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7405502920521179136/" target="_blank"
+                        rel="noopener noreferrer" class="col-score score-link">50000</a>
+                </div>
+
+                <div class="highscore-row">
+                    <span class="col-rank rank-2nd">2ND</span>
+                    <span class="col-achievement">Zero's Arena 2025 Hackathon</span>
+                    <a href="https://drive.google.com/file/d/1xCO2-MZqQ4TluuuO5z3l8IozP6jmnWnC/view?usp=drive_link"
+                        target="_blank" rel="noopener noreferrer" class="col-score score-link">45000</a>
+                </div>
+
+                <div class="highscore-row">
+                    <span class="col-rank rank-3rd">3RD</span>
+                    <span class="col-achievement">SmartKrishi Hackathon 2025 by Globeam</span>
+                    <a href="https://krishi-dristi.netlify.app/" target="_blank" rel="noopener noreferrer"
+                        class="col-score score-link">40000</a>
+                </div>
+
+                <div class="highscore-row">
+                    <span class="col-rank rank-4th">4TH</span>
+                    <span class="col-achievement">Bharatiya Antariksh Hackathon 2025</span>
+                    <a href="https://drive.google.com/file/d/18BulMc9Y6_8K8DTpRLZhcYK18M6L4yjK/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer" class="col-score score-link">35000</a>
+                </div>
+
+                <div class="highscore-row">
+                    <span class="col-rank rank-5th">5TH</span>
+                    <span class="col-achievement">Hack Synthesis 2.0 2025</span>
+                    <a href="https://drive.google.com/file/d/1uk2fTFUjPjlStAJs1iYvQztnymJ4AGfP/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer" class="col-score score-link">30000</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="block-icon">✉</span>
+                Contact Me
+            </h2>
+
+            <div class="contact-grid">
+                <div class="contact-info brick-card">
+                    <h3>Let's Connect!</h3>
+                    <p>Ready to start a new adventure together? Reach out and let's create something amazing!</p>
+
+                    <div class="social-links">
+                        <a href="https://github.com/rio-ARC" target="_blank" rel="noopener noreferrer"
+                            class="social-link powerup-link" aria-label="GitHub">
+                            <span class="powerup-icon github">GH</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aritra-roy-choudhury" target="_blank"
+                            rel="noopener noreferrer" class="social-link powerup-link" aria-label="LinkedIn">
+                            <span class="powerup-icon linkedin">in</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://x.com/rio_arc3826" target="_blank" rel="noopener noreferrer"
+                            class="social-link powerup-link" aria-label="X">
+                            <span class="powerup-icon twitter">X</span>
+                            <span>X</span>
+                        </a>
+                        <a href="mailto:arc.nbg11@gmail.com" class="social-link powerup-link" aria-label="Email">
+                            <span class="powerup-icon email">@</span>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1Orzp_zwXDOh918RIJN9XnQwJvsoHm520/view?usp=drive_link"
+                            target="_blank" rel="noopener noreferrer" class="social-link powerup-link"
+                            aria-label="Resume">
+                            <span class="powerup-icon resume">📄</span>
+                            <span>Resume</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form game-menu" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">YOUR NAME</label>
+                        <input type="text" id="name" name="name" required placeholder="Mario">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">YOUR EMAIL</label>
+                        <input type="email" id="email" name="email" required placeholder="mario@mushroom.kingdom">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">YOUR MESSAGE</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Let's-a go!"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit jump-block">
+                        <span>SEND MESSAGE</span>
+                        <span class="coin-burst">+100</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="ground"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                © 2026 Aritra Roy Choudhury | Built with
+                <span class="heart-icon">❤</span>
+                & Mario vibes
+            </p>
+            <p class="footer-credits">THANK YOU FOR PLAYING!</p>
+        </div>
+        <div class="castle-silhouette"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
