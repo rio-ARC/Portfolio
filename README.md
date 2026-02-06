@@ -4,7 +4,7 @@ Hi! I'm Aritra, an Electronics & Communication Engineering student who loves bui
 
 I code in C, Python, and React.js, and I've built everything from web apps and dashboards to a Bluetooth RC car and ML-based prediction projects.
 
-Currently focused on sharpening my frontend skills while diving deeper into electronics. I'm actively learning machine learning and data structures, and I care about understanding *why* things work, not just making them work.
+Currently focused on sharpening my web development skills while diving deeper into electronics. I'm actively learning machine learning and data structures, and I care about understanding *why* things work, not just making them work.
 
 I'm always open to collaborating on open-source IoT or AI/ML projects with real social impact. If you're into embedded systems, edge ML, or squeezing performance out of limited hardware—we'll probably get along!
 
