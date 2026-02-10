@@ -17,3 +17,10 @@ I'm always open to collaborating on open-source IoT or AI/ML projects with real 
 👉 **[View My Portfolio](YOUR_WEBSITE_LINK_HERE)**
 
 <!-- Replace YOUR_WEBSITE_LINK_HERE with your actual deployed website URL -->
+
+---
+
+## 🔗 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aritra-roy-choudhury/)
+[![GitHub Work](https://img.shields.io/badge/GitHub_Work-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aritrarc-work)
