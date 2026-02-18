@@ -334,6 +334,24 @@ body {
     cursor: pointer;
 }
 
+.nav-github-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    transition: transform 0.2s ease;
+}
+
+.nav-github-link:hover {
+    transform: scale(1.2);
+}
+
+.nav-github-icon {
+    width: 28px;
+    height: 28px;
+    filter: invert(1);
+}
+
 .hamburger {
     display: block;
     width: 25px;
