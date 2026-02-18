@@ -352,6 +352,12 @@ body {
     filter: invert(1);
 }
 
+.nav-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
 .hamburger {
     display: block;
     width: 25px;
